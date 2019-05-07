@@ -1,8 +1,4 @@
 class Solution:
-    '''
-        not sure how else to make this faster, but its only faster than 17% of the other solutions.
-        complexity is still O(n) here, where n is the total numbers of chars in s and t combined.
-    ''' 
     
     # returns a map for each character of a string to its total number of occurences 
     def fillCharMap(self, s):
